@@ -24,7 +24,7 @@ This project is currently in development. User can select a country, enter the p
 
 ## Project Screen Shot(s)
 
-![TopUp](TopUp_Gif.gif)
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 ####
 
