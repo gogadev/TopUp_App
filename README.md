@@ -2,7 +2,7 @@
 
 ####
 
-TopUp APP
+**TopUp APP**
 
 React Redux TopUp App based on fake JSON API that displays a TopUp Flow in 5 steps:
 
@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/56350554/124103116-dfb39e80-da58-11eb-
 
 ####
 
-**I am going to upload two versions (older one and newer one) because with the newest version it says that I am above my daily Fake Units limit. There is slight difference when it comes to design and I also removed one console.log in newer version.
+**I am going to upload two versions (older one and newer one) because with the newest version it says that I am above my daily Fake Units limit. There is slight difference when it comes to design and I also removed one console.log in newer version.**
 
 ➢ Older Version
 App is available on: https://topup-app.netlify.app/
