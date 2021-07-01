@@ -89,7 +89,7 @@ To Start Server:
 
 ####
 
-The TopUp App project was based on fake JSON API. I also created mock JSON data based on fake JSON API during the development to be able to continue with the project in case if I exceed the limit. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features to be able to finish the project.
+The TopUp App project was based on fake JSON API. I also created mock JSON data based on fake JSON API during the development to be able to continue with the project in case if I exceed the daily limit. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features to be able to finish the project.
 
 The project consists of 5 parts: User selects a recipient country, enters the phone number, selects correct operator, chooses the amount he/she wants to send to the recipient and see the success screen after the successful top-up.
 
