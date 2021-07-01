@@ -2,7 +2,7 @@
 
 ####
 
-React Redux TopUp App based on fake JSON API that displays a TopUp Flow in 5 steps:
+React Redux TopUp App based on fake JSON API that displays project flow in 5 steps:
 
 ➢ User must select a country from the "countries" property in JSON.
 
