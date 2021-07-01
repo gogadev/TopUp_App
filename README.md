@@ -1,8 +1,6 @@
-## Project Name
+## TopUp App
 
 ####
-
-**TopUp APP**
 
 React Redux TopUp App based on fake JSON API that displays a TopUp Flow in 5 steps:
 
