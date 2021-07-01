@@ -23,8 +23,10 @@ React Redux TopUp App based on fake JSON API that displays a TopUp Flow in 5 ste
 This project is currently in development. User can select a country, enter the phone number, select the right operator, choose a TopUp amount and see a success screen after a TopUp.
 
 ## Project Screen Shot(s)
+![TopUp App](https://user-images.githubusercontent.com/56350554/124102882-a7ac5b80-da58-11eb-98cb-cef6cf609376.mp4
+)
 
-![TopUp App](C:\Users\goga4\OneDrive\Desktop\TopUp App Gif)
+
 
 ####
 
