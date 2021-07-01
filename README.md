@@ -36,8 +36,6 @@ App is available on: https://topup-new-version.netlify.app/
 
 ![TopUp Screenshot](https://user-images.githubusercontent.com/56350554/124107953-a6316200-da5d-11eb-8caf-64babb0bb846.png)
 
-![TopUp Screenshots](https://user-images.githubusercontent.com/56350554/124109414-0379e300-da5f-11eb-98b0-a1b3e73e79bf.png)
-
 ## Installation and Setup Instructions
 
 ####
