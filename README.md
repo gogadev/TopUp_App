@@ -28,13 +28,16 @@ https://user-images.githubusercontent.com/56350554/124103116-dfb39e80-da58-11eb-
 
 ####
 
-I am going to upload two versions (older one and newer one) because with the newest version it says that I am above my daily Fake Units limit. There is slight difference when it comes to design and I also removed one console.log in newer version.
+**I am going to upload two versions (older one and newer one) because with the newest version it says that I am above my daily Fake Units limit. There is slight difference when it comes to design and I also removed one console.log in newer version.
 
-* Older Version
+➢ Older Version
 App is available on: https://topup-app.netlify.app/
 
-* Newer Version
-App is available on: 
+➢ Newer Version
+App is available on: https://topup-new-version.netlify.app/
+
+![TopUp Screenshot](https://user-images.githubusercontent.com/56350554/124107953-a6316200-da5d-11eb-8caf-64babb0bb846.png)
+
 
 ## Installation and Setup Instructions
 
