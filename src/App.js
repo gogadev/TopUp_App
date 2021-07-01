@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
+
+import HomePage from "./pages/home-page/HomePage";
+import PhonePage from "./pages/phone-page/PhonePage";
+import OperatorsPage from "./pages/operators-page/OperatorsPage";
+import ProductsPage from "./pages/products-page/ProductsPage";
+import TopupSuccess from "./pages/topup-success/TopupSuccess";
+import NotFound from "./pages/not-found/NotFound";
+
+import "./App.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path="/phone" component={PhonePage} />
+        <Route path="/operators" component={OperatorsPage} />
+        <Route path="/products" component={ProductsPage} />
+        <Route path="/topup" component={TopupSuccess} />
+        <Route exact path="/" component={HomePage} />
+        <Route component={NotFound} />
+      </Switch>
+      <Footer />
+    </Router>
   );
-}
+};
 
 export default App;

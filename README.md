@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+## Project Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+####
 
-## Available Scripts
+TopUp APP
 
-In the project directory, you can run:
+React Redux TopUp App based on fake JSON API that displays a TopUp Flow in 5 steps:
 
-### `npm start`
+➢ User must select a country from the "countries" property in JSON.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+➢ User can enter a phone number.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+➢ User will select operator from the JSON response.
 
-### `npm test`
+➢ User will be asked to select a TopUp amount.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+➢ User will see a success screen indicating that their TopUp has been sent.
 
-### `npm run build`
+## Project Status
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+####
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project is currently in development. User can select a country, enter the phone number, select the right operator, choose a TopUp amount and see a success screen after a TopUp.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Screen Shot(s)
 
-### `npm run eject`
+####
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+App is available on:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation and Setup Instructions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+####
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Get Request at https://app.fakejson.com/q/xdOdc9ZF?token=M37SFqOXjnZXOBpUuOCRXA
 
-## Learn More
+Clone down this repository. You will need `node` and `npm` installed globally on your machine
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+git clone
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Installation:
 
-### Code Splitting
+`npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To Start Server:
 
-### Analyzing the Bundle Size
+`npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Libraries and Platforms
 
-### Making a Progressive Web App
+####
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+➢ react.js
 
-### Advanced Configuration
+➢ react-router-dom
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+➢ react-redux
 
-### Deployment
+➢ redux-thunk
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+➢ redux-devtools
 
-### `npm run build` fails to minify
+➢ redux-persist
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+➢ axios
+
+➢ styled-components
+
+➢ material-ui
+
+➢ react-reveal
+
+➢ undraw-platform
+
+➢ netlify
+
+## Reflection
+
+####
+
+The TopUp App project was based on fake JSON API. I also created mock JSON data based on fake JSON API during the development to be able to continue with the project in case if I exceed the limit. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features to be able to finish the project.
+
+The project consists of 5 parts: User selects a recipient country, enters the phone number, selects correct operator, chooses the amount he/she wants to send to the recipient and see the success screen after the successful top-up.
+
+I used React Hooks throughout my app to make my code look cleaner, easier to read and test. I chose React Redux for the state management to avoid prop drilling. It will ensure that the component only re-renders when a specific object in the store changes I chose Redux Thunk middleware that allows for delayed actions and handles asynchronous actions. I used Redux DevTools to be able to debug bugs, track the changes of the TopUp App.
+
+For fetching the main data, I used axios library because it performs automatic transforms of JSON data.
+
+I chose React Router to allow my application to navigate between different components. React Router is dynamic, client-side routing that allows us to build a single-page web application with navigation without the page refreshing as the user navigates.
+
+I decided to use Redux Persist library to persist data. It allows saving a Redux store in the local storage of an application.
+
+I chose Material-UI Icons to make the UI visually more consistent, appealing and interactive. I decided to use Styled Components - CSS-in-JS styling framework that can be customised through props and/or extended via styled(Component) and it also avoids clashes with CSS selectors. I chose React-Reveal Animation Library to give the app a little extra flavor and to enhance the user experience.
+
+App is responsive. It scales from desktop to mobile. I used modern CSS3 Grid and Flexbox System in combination with media query.
+
+I used Undraw Platform to get customizable, high quality svg and png icons.
+
+I used Netlify to deploy the final version of the TopUp App.
+
+At the end of the day, the technologies implemented in this project are React, modern ES6+ VanillaJS, JSX, Styled Components and modern CSS3. I chose to use the `create-react-app` boilerplate to minimize initial setup.
