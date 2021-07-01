@@ -24,7 +24,7 @@ This project is currently in development. User can select a country, enter the p
 
 ## Project Screen Shot(s)
 
-![TopUp App](https://ezgif.com/speed/ezgif-3-4cc01087c6d0.gif)
+![TopUp App](C:\Users\goga4\OneDrive\Desktop\TopUp App Gif)
 
 ####
 
