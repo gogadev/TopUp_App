@@ -90,7 +90,7 @@ The TopUp App project was based on fake JSON API. I also created mock JSON data 
 
 The project consists of 5 parts: User selects a recipient country, enters the phone number, selects correct operator, chooses the amount he/she wants to send to the recipient and see the success screen after the successful top-up.
 
-I used React Hooks throughout my app to make my code look cleaner, easier to read and test. I chose React Redux for the state management to avoid prop drilling. It will ensure that the component only re-renders when a specific object in the store changes I chose Redux Thunk middleware that allows for delayed actions and handles asynchronous actions. I used Redux DevTools to be able to debug bugs, track the changes of the TopUp App.
+I used React Hooks throughout my app to make my code look cleaner, easier to read and test. I chose React Redux for the state management to avoid prop drilling. It will ensure that the component only re-renders when a specific object in the store changes. I chose Redux Thunk middleware that allows for delayed actions and handles asynchronous actions. I used Redux DevTools to be able to debug bugs, track the changes of the TopUp App.
 
 For fetching the main data, I used axios library because it performs automatic transforms of JSON data.
 
